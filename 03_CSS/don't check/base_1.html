@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div.Week{
+            margin-top: 20px ;
+            height: 46px;
+        }
+        div.Week > div{ 
+            background-color: rgba(159, 159, 151, 0.968); 
+            border: solid black 1px; position: relative;
+            cursor: pointer; 
+            width: 100px; 
+            height: 30px; 
+            float: left;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px
+        }
+        div.list {
+            display: none 
+        }
+        div.list > div {
+             width: 100px; 
+             height: 30px; 
+             padding: 5px; 
+             border-radius: 10px;
+             background-color:rgba(159, 159, 151, 0.066); 
+             border: solid black 1px; 
+             cursor: pointer;
+            }
+        div.Week > div:hover div.list { 
+            display: block; 
+            position: absolute; 
+            left: 0px; top: 30px;
+        }
+        /************ Почему не работает медиа запрос?***********/
+        @media all and (max-device-width: 800px){
+            div.Week{
+                float: none;
+                background-color:red                
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="Week">
+        <div>Понедельник</div>
+        <div>Вторник</div>
+        <div>Среда
+            <div class="list">
+                <div>завтрак</div>
+                <div>обед</div>        
+                <div>ужин</div>
+            </div>
+        </div>
+        <div>Четверг</div>
+        <div>Пятница</div>
+        <div>Суббота</div>
+    </div>  
+</body>
+</html>
