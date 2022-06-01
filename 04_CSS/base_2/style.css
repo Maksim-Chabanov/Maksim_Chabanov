@@ -1,0 +1,30 @@
+
+tr:nth-child(1){
+    text-align: center;
+}
+tr:nth-child(1n+2){
+    text-align: left;
+}
+
+th, td{
+    border-bottom-style: dotted;
+}
+td{
+    border-left-style: dotted;
+}
+.line_1{
+    background-color: rgba(77, 72, 72, 0.223);
+}
+h1{
+    text-align: center;
+    margin: 0;
+}
+.line_3,.line_5{
+    background-color: rgba(188, 159, 159, 0.223);
+}
+.div_table{
+    width: 570px;
+}
+tr:hover{
+    background-color: blue;
+}
