@@ -12,6 +12,6 @@ a[href^="SS"]:hover {
     background-color:red;
    
 }
-p::before{
-    content: &nbsp;&nbsp;&nbsp;
+p{
+    text-indent: 25px; 
 }
