@@ -1,0 +1,17 @@
+p{
+    width: auto;
+    height: 110px;
+    margin: 0;
+}
+.block_1{
+    border: solid;
+    border-style: groove;
+    border-radius: 0px 20px 0px 20px;
+}
+a[href^="SS"]:hover {
+    background-color:red;
+   
+}
+p::before{
+    content: &nbsp;&nbsp;&nbsp;
+}
