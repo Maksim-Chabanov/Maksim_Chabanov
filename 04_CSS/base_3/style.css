@@ -1,0 +1,19 @@
+td{
+    width: 30px;
+    height: 30px;   
+    margin: 0; 
+    padding: 0;
+}
+/*Шахматная доска*/
+tr:nth-child(odd)>td:nth-child(even){
+    background-color: black;
+}
+tr:nth-child(even)>td:nth-child(odd){
+    background-color: black;
+}
+table{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-collapse: collapse;
+}
