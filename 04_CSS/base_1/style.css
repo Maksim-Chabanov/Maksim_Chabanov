@@ -9,9 +9,15 @@ p{
     border-radius: 0px 20px 0px 20px;
 }
 a[href^="SS"]:hover {
-    background-color:red;
-   
+    background-image:url(file.jpg);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    bottom: 100px;
 }
 p{
     text-indent: 25px; 
+}
+.footer{
+    float: left;
+    margin-left: 20px;
 }
